@@ -10,4 +10,12 @@ Home Page: https://competitions.codalab.org/competitions/31559
 
 MICCAI 2021 Challenge Page: https://www.ub.edu/mnms-2/
 
+## Insights
+
++ The data provided contains more labelled masks than needed so my first step was to change from a multiclass problem to a binary problem through a preprocessed phase
++ Four perspectives for each patient was provided and the final metric took into account all of them so one approach was to create a model for each perspective as the final submits must go separately for each perspective
+
 ## Conclusions
+
++ I tried to make the inference phase for the 3D model already trained but I could not finalize it and I did not make any submit to the competition
++ However, I think it was worthwhile to post the code used as it may be useful in the future for similar problems
